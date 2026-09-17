@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olwa Emmanuel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="#home" class="nav-link" id="nav-home">Home</a>
+            <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+        </div>
+    </nav>
+
+    <main id="app">
+        <!-- Content will be injected here -->
+    </main>
+
+    <div id="gallery-overlay" class="gallery-overlay">
+        <div class="gallery-header">
+            <h2 id="gallery-title">Client Content</h2>
+            <div class="close-btn" id="close-gallery">&times;</div>
+        </div>
+        <div id="gallery-content" class="gallery-grid"></div>
+        <div id="back-to-top" class="back-to-top" title="Back to Top">↑</div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-close" id="lightbox-close">&times;</div>
+        <img class="lightbox-content" id="lightbox-img">
+        <video id="lightbox-video" controls class="lightbox-content"></video>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>Contact Me</h3>
+            <div class="footer-info">
+                <p>Phone: <a href="tel:+256784155766">+256 784 155 766</a> / <a href="tel:+256764141234">+256 764 141 234</a></p>
+                <p>Email: <a href="mailto:olwaemmanuel777@gmail.com">olwaemmanuel777@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
