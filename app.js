@@ -44,7 +44,7 @@ function renderHome() {
             </div>
             <div class="hero-image">
                 <div class="image-container">
-                    <img src="Olwa.jpg" alt="Olwa Emmanuel">
+                    <img src="OLWA.jpg" alt="Olwa Emmanuel">
                 </div>
             </div>
         </section>
